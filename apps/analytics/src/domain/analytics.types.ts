@@ -1,5 +1,5 @@
-import type { CustomerSegment } from "@commerceos/customers/domain/customers.types";
-import type { OrderStatus } from "@commerceos/orders/domain/orders.types";
+import type { CustomerSegment } from "@commerceos/shared/domain/commerce/customers.types";
+import type { OrderStatus } from "@commerceos/shared/domain/commerce/orders.types";
 
 export interface AnalyticsOverview {
   revenue: number;

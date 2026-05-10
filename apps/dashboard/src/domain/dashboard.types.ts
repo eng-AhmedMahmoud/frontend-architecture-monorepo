@@ -1,6 +1,6 @@
-import type { Discount } from "@commerceos/discounts/domain/discounts.types";
-import type { InventoryItem } from "@commerceos/inventory/domain/inventory.types";
-import type { Order, OrderStatus } from "@commerceos/orders/domain/orders.types";
+import type { Discount } from "@commerceos/shared/domain/commerce/discounts.types";
+import type { InventoryItem } from "@commerceos/shared/domain/commerce/inventory.types";
+import type { Order, OrderStatus } from "@commerceos/shared/domain/commerce/orders.types";
 
 export interface DashboardSummary {
   revenue: number;

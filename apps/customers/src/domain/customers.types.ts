@@ -1,5 +1,5 @@
-import type { PriceList } from "@commerceos/catalog/domain/catalog.types";
-import type { Order } from "@commerceos/orders/domain/orders.types";
+import type { PriceList } from "@commerceos/shared/domain/commerce/catalog.types";
+import type { Order } from "@commerceos/shared/domain/commerce/orders.types";
 
 export type CustomerSegment = "VIP" | "Wholesale" | "At Risk" | "New" | "Repeat";
 

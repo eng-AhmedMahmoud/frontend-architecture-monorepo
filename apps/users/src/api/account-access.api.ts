@@ -6,11 +6,11 @@ export function fetchAccountUsers(accountId: string) {
 }
 
 export function fetchAccountUser(accountId: string, userId: string) {
-  return apiClient.get<AccountMember>(`/api/accounts/${accountId}@commerceos/users/${userId}`);
+  return apiClient.get<AccountMember>(`/api/accounts/${accountId}/users/${userId}`);
 }
 
 export function updateAccountUser(accountId: string, userId: string, payload: Partial<AccountMember>) {
-  return apiClient.patch<AccountMember>(`/api/accounts/${accountId}@commerceos/users/${userId}`, payload);
+  return apiClient.patch<AccountMember>(`/api/accounts/${accountId}/users/${userId}`, payload);
 }
 
 export function fetchAccountPermissions(accountId: string) {

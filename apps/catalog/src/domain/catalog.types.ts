@@ -1,5 +1,5 @@
-import type { CustomerSegment } from "@commerceos/customers/domain/customers.types";
-import type { InventoryStatus } from "@commerceos/inventory/domain/inventory.types";
+import type { CustomerSegment } from "@commerceos/shared/domain/commerce/customers.types";
+import type { InventoryStatus } from "@commerceos/shared/domain/commerce/inventory.types";
 import type { AuditLogEntry } from "@commerceos/shared/domain/audit-log.types";
 
 export type ProductStatus = "active" | "draft" | "archived";
