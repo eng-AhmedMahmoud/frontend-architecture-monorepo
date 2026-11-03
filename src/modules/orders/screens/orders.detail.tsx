@@ -3,7 +3,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { fetchOrder, updateOrder } from "../api/orders.api";
 import { useAuth } from "@/modules/authentication/providers/use-auth";
 import type { Order } from "../domain/orders.types";
-import { OrderLineItemsTable } from "../components/order-line-items-table";
+import { OrderLineItemsTable } from "@/shared/components/orders/order-line-items-table";
 import { LoadingState } from "@/shared/components/feedback/loading-state";
 import { ActivityHistoryCard } from "@/shared/components/activity-history-card";
 import { KeyValueList } from "@/shared/components/key-value-list";

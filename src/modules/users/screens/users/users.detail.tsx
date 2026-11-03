@@ -11,7 +11,7 @@ import { Button } from "@/shared/ui/button";
 import { Input } from "@/shared/ui/input";
 import { Label } from "@/shared/ui/label";
 import { Select } from "@/shared/ui/select";
-import { ROLE_LABELS } from "../../lib/permissions";
+import { ROLE_LABELS } from "@/shared/permissions/permissions";
 import type { AccountMember, RoleKey } from "../../domain/users.types";
 
 export default function UserDetailPage() {

@@ -11,7 +11,7 @@ import { StatCard } from "@/shared/components/stat-card";
 import { Button } from "@/shared/ui/button";
 import { Select } from "@/shared/ui/select";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/shared/ui/table";
-import { ROLE_LABELS } from "../../lib/permissions";
+import { ROLE_LABELS } from "@/shared/permissions/permissions";
 import type { RoleKey } from "../../domain/users.types";
 
 export default function UsersPage() {
