@@ -8,7 +8,7 @@ import { PageHeader } from "@/shared/components/page-header";
 import { Button } from "@/shared/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card";
 import { Switch } from "@/shared/ui/switch";
-import { PERMISSION_GROUPS, ROLE_LABELS } from "../../lib/permissions";
+import { PERMISSION_GROUPS, ROLE_LABELS } from "@/shared/permissions/permissions";
 import type { AccountPermissionPolicy } from "../../domain/users.types";
 
 export default function RolesPermissionsPage() {

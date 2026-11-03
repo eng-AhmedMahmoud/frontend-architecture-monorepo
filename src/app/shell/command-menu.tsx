@@ -24,7 +24,7 @@ import { useAuth } from "@/modules/authentication/providers/use-auth";
 import { Button } from "@/shared/ui/button";
 import { Dialog, DialogContent } from "@/shared/ui/dialog";
 import { Input } from "@/shared/ui/input";
-import { ROLE_LABELS } from "@/modules/users/lib/permissions";
+import { ROLE_LABELS } from "@/shared/permissions/permissions";
 import { formatCurrency, formatDate, cn } from "@/shared/lib/utils";
 import type { PermissionKey } from "@/modules/users/domain/users.types";
 
