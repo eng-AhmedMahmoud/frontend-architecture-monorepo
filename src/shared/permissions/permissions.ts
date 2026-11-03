@@ -1,4 +1,4 @@
-import type { PermissionKey, RoleKey } from "../domain/users.types";
+import type { PermissionKey, RoleKey } from "@/modules/users/domain/users.types";
 
 export const ALL_PERMISSIONS: PermissionKey[] = [
   "dashboard.view",
